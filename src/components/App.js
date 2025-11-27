@@ -2,8 +2,8 @@
 import React from "react";
 import './../styles/App.css';
 
-const [name,setName]=useState('');
 const App = () => {
+  const [name,setName]=useState('');
   return (
     <div>
         <p>Enter your name:</p>
